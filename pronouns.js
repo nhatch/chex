@@ -2,11 +2,14 @@ substitutions = {
   "he": "she",
   "his": "her",
   "him": "her",
+  "himself": "herself",
   "male": "female",
   "males": "females",
   "man": "woman",
   "men": "women",
   "guy": "girl",
+  "boy": "girl",
+  "boys": "girls",
   "guys": "girls",
   "dude": "chick",
   "dudes": "chicks",
@@ -15,7 +18,20 @@ substitutions = {
   "husband": "wife",
   "son": "daughter",
   "sons": "daughters",
-  "father": "mother"
+  "father": "mother",
+  "mr": "ms",
+  "mrs": "mr",
+  "uncle": "aunt",
+  "uncles": "aunts",
+  "lady": "sir",
+  "ladies": "gentlemen",
+  "sister": "brother",
+  "sisters": "brothers",
+  "king": "queen",
+  "kings": "queens",
+  "prince": "princess",
+  "princes": "princesses"
+  // etc.
 };
 
 function makeSubstitutions(text_node)
